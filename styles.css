@@ -80,3 +80,15 @@ body {
 .btn {
     margin: 5px;
 }
+.images-card {
+    width: 100%;
+    max-width: 180px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.images-card:hover {
+    transform: scale(1.05);
+}
+
