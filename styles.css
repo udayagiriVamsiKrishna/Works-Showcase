@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home-page {
+    padding: 10px;
+    text-align: center;
+}
+
+.image {
+    height: 230px;
+    width: 250px;
+}
+
+.my-projects {
+    font-family: Bree Serif;
+    font-size: 25px;
+    color: #183b56;
+}
+
+.my-website {
+    font-family: Bree Serif;
+    color: #616e7c;
+    width: 480px;
+    font-size: 15px;
+}
+
+.images-card {
+    height: 120px;
+    width: 190px;
+    padding: 10px;
+}
+
+.tec-card {
+    padding: 10px;
+}
+
+.bg-container {
+    background-image: url(" https://d2clawv67efefq.cloudfront.net/ccbp-static-website/advanced-technologies-img.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.card {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.main-heading {
+    font-family: Bree Serif;
+    color: #183b56;
+    font-size: 30px;
+}
+
+.paragraph {
+    color: #616e7c;
+    font-family: Bree Serif;
+    width: 350px;
+
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+.learn-more {
+    height: 30px;
+    width: 100px;
+    margin-right: 10px;
+    border-width: 1px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.diwali-page-card {
+    padding: 10px;
+}
+
+
+.bg-continer {
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/diwali-img.png");
+    background-size: cover;
+    height: 50vh;
+    width: 90vw;
+}
+
+.cel-card {
+    color: white;
+    font-family: Caveat;
+    padding: 10px;
+}
+
+.diwali-bottom-section {
+    background-color: #e6f6ff;
+}
+
+.background-for-img {
+    background-color: #ffffff;
+    margin: 20px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.img-sizes {
+    height: 80px;
+    width: 90px;
+}
+
+.img-text {
+    font-family: roboto;
+    color: #616e7c;
+    text-align: center;
+}
+
+.img-price {
+    font-family: roboto;
+    color: #183b56;
+    text-align: center;
+}
+
+.my-website {
+    font-family: Bree Serif;
+    color: #616e7c;
+    width: 480px;
+    font-size: 15px;
+}
+
+.images-card {
+    height: 120px;
+    width: 190px;
+    padding: 10px;
+}
+
+.tec-card {
+    padding: 10px;
+}
+
+.bg-container {
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/food-img.png ");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.card {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    background-color: #eab676;
+}
+
+.mainnews {
+    color: #616e7c;
+    font-family: roboto;
+}
+
+.all-ed {
+    color: #183b56;
+    font-family: roboto;
+}
+
+.bg-new-container {
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/news-paper-img.png ");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.cont {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+
+}
+
+.read-more {
+    color: #ffffff;
+    background-color: #183b56;
+    border-radius: 8px;
+    width: 1px;
+    width: 100px;
