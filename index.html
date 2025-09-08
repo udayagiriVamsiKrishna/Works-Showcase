@@ -1,38 +1,129 @@
-<div id="sectionhomepage">
-    <div class="home-page">
-        <div>
-            <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/software-developer-img.png" class="image img-fluid" />
-            <h1 class="my-projects">My Projects</h1>
-            <p class="my-website">
-                These are a few of my static website projects that I have developed using<br />
-                HTML, CSS and Bootstrap
-            </p>
-        </div>
+<!DOCTYPE html>
+<html>
 
-        <!-- Projects Grid -->
-        <div class="container mt-4">
-            <div class="row text-center">
-                <div class="col-6 col-md-3 mb-3">
-                    <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/advanced-technologies-img.png"
-                        class="images-card img-fluid"
-                        onclick="display('sectionadvpage')" />
-                </div>
-                <div class="col-6 col-md-3 mb-3">
-                    <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/diwali-img.png"
-                        class="images-card img-fluid"
-                        onclick="display('sectiondiwalipage')" />
-                </div>
-                <div class="col-6 col-md-3 mb-3">
-                    <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/food-img.png"
-                        class="images-card img-fluid"
-                        onclick="display('sectionhpymeals')" />
-                </div>
-                <div class="col-6 col-md-3 mb-3">
-                    <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/news-paper-img.png"
-                        class="images-card img-fluid"
-                        onclick="display('sectionnewsday')" />
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Homepage -->
+    <div id="sectionhomepage">
+        <div class="home-page">
+            <div>
+                <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/software-developer-img.png" class="image img-fluid" />
+                <h1 class="my-projects">My Projects</h1>
+                <p class="my-website">These are a few of my static website projects that I have developed using<br />
+                    HTML, CSS and Bootstrap
+                </p>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="images-card img-fluid" onclick="display('sectionadvpage')" />
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/diwali-img.png" class="images-card img-fluid" onclick="display('sectiondiwalipage')" />
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/food-img.png" class="images-card img-fluid" onclick="display('sectionhpymeals')" />
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/news-paper-img.png" class="images-card img-fluid" onclick="display('sectionnewsday')" />
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+
+    <!-- Advanced Technologies -->
+    <div id="sectionadvpage" style="display:none;">
+        <div class="bg-container d-flex flex-column justify-content-center align-items-center">
+            <div class="card text-center">
+                <h1 class="main-heading">Advanced Technologies</h1>
+                <p class="paragraph">Machinery and equipment developed from the application of scientific knowledge.</p>
+                <div class="d-flex flex-wrap justify-content-center">
+                    <button class="btn btn-outline-primary m-2">Learn more</button>
+                    <button class="btn btn-primary m-2" onclick="display('sectionhomepage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diwali Page -->
+    <div id="sectiondiwalipage" style="display:none;">
+        <div class="diwali-page-card">
+            <div class="bg-continer text-center">
+                <p class="cel-card">Celebrate<br />Diwali with<br />your friends</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-3 background-for-img">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/lamp-img.png" class="img-sizes img-fluid" />
+                        <p class="img-text">Diwali Air Balloon</p>
+                        <p class="img-price">Rs 369</p>
+                    </div>
+                    <div class="col-6 col-md-3 background-for-img">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/diya-img.png" class="img-sizes img-fluid" />
+                        <p class="img-text">Diwali Lamp</p>
+                        <p class="img-price">Rs 50</p>
+                    </div>
+                    <div class="col-6 col-md-3 background-for-img">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/firework-img.png" class="img-sizes img-fluid" />
+                        <p class="img-text">Sparklers</p>
+                        <p class="img-price">Rs 150</p>
+                    </div>
+                    <div class="col-6 col-md-3 background-for-img">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/firecracker-img.png" class="img-sizes img-fluid" />
+                        <p class="img-text">Fire Crackers</p>
+                        <p class="img-price">Rs 560</p>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <button class="btn btn-primary" onclick="display('sectionhomepage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Happy Meals -->
+    <div id="sectionhpymeals" style="display:none;">
+        <div class="bg-container d-flex flex-column justify-content-center align-items-center">
+            <div class="card text-center">
+                <h1 class="main-heading">Happy Meals</h1>
+                <p class="paragraph">Discover the best food over 1,000 restaurants.</p>
+                <div class="d-flex flex-wrap justify-content-center">
+                    <button class="btn btn-outline-primary m-2">Book now</button>
+                    <button class="btn btn-primary m-2" onclick="display('sectionhomepage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- News Day -->
+    <div id="sectionnewsday" style="display:none;">
+        <div class="bg-new-container d-flex flex-column justify-content-center align-items-center">
+            <div class="cont">
+                <p class="mainnews font-weight-bold">News of the Day</p>
+                <p class="all-ed">All education institutions in Assam reopen from November 2.</p>
+                <p class="mainnews">Uttar Pradesh's Gautam Nagar recorded 107 new COVID-19 cases on Saturday, pushing the district infections to 15,803. Official data showed the number of active cases came down further to 1,388 from the UP Health Department for a 24-hour period.</p>
+                <div class="d-flex flex-wrap justify-content-center">
+                    <button class="btn btn-outline-primary m-2">Read more</button>
+                    <button class="btn btn-primary m-2" onclick="display('sectionhomepage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function display(sectionId) {
+            let sections = ["sectionhomepage", "sectionadvpage", "sectiondiwalipage", "sectionhpymeals", "sectionnewsday"];
+            sections.forEach(id => {
+                document.getElementById(id).style.display = "none";
+            });
+            document.getElementById(sectionId).style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
